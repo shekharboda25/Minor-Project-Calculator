@@ -1,0 +1,45 @@
+/* h1 for calculator text */
+
+h1 {
+    text-align: center;
+}
+/* added calculator */
+.calculator {
+    width: 45%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid #090909; /* black */
+    border-radius: 20px
+}
+
+/* input text */
+input[type="text"] {
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+    font-size: 50px;
+    text-align: right;
+}
+
+/* added style for buttons */
+.buttons {
+    color: black;
+    background-color: rgb(214, 209, 209);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+/* styling for button */ 
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+/* text style of desined name */
+h5 {
+    text-align: right;
+}
